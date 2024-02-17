@@ -1,0 +1,35 @@
+{
+  "buyOrders": {
+    "BTC": []
+  },
+  "sellOrders": {
+    "BTC": []
+  },
+  "filledOrders": {
+    "BTC": [
+      {
+        "id": "c3e6396c-d9fc-4e80-b9a3-0d0571d180c7",
+        "item": "BTC",
+        "type": "sell",
+        "price": 1000,
+        "peerId": "3f14f226-d5e9-4293-939c-468bbdce625d",
+        "quantity": 0,
+        "originalQuantity": 2,
+        "filledQuantity": 2,
+        "matchedOrders": [
+          {
+            "id": "a1f629d2-b798-45f2-82f3-0555eb5db57a",
+            "quantity": 1,
+            "peerId": "9d26c4fb-6fe7-4a2f-9b44-661603247895"
+          },
+          {
+            "id": "6cfbe39d-4a83-4bc4-b584-4d404c04c2a8",
+            "quantity": 1,
+            "peerId": "6388e298-9979-410c-be99-64795a5373c6"
+          }
+        ]
+      }
+    ]
+  },
+  "matchedOrdersQueue": {}
+}

@@ -1,0 +1,21 @@
+{
+  "name": "dom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:grapes": "grape --dp 20001 --aph 30001 --bn '127.0.0.1:20002' & grape --dp 20002 --aph 40001 --bn '127.0.0.1:20001'",
+    "start": "node client.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.5",
+    "grenache-grape": "^0.9.12",
+    "grenache-nodejs-http": "^0.7.13",
+    "grenache-nodejs-link": "^1.0.0",
+    "uuid": "^9.0.1"
+  }
+}
